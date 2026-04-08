@@ -5,7 +5,7 @@
 This is a modern, interactive calendar component built using **React (Vite)**.
 It is inspired by a wall calendar design with a clean UI, smooth animations, and note-taking functionality.
 
----
+
 
 ## ✨ Features
 
@@ -40,7 +40,7 @@ It is inspired by a wall calendar design with a clean UI, smooth animations, and
   * Works on mobile and desktop
   * Touch-friendly interactions
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -50,7 +50,7 @@ It is inspired by a wall calendar design with a clean UI, smooth animations, and
 * CSS (inline styling)
 * localStorage
 
----
+
 
 ## 📂 Project Structure
 
@@ -71,7 +71,7 @@ src/
 ├── App.jsx
 ├── main.jsx
 
----
+
 
 ## ▶️ Getting Started
 
@@ -120,4 +120,4 @@ public/sounds/flip.mp3
 
 ## 👨‍💻 Author
 
-Sandeep
+Sathish Kodari
