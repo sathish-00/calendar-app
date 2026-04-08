@@ -1,16 +1,123 @@
-# React + Vite
+# 📅 Interactive Calendar Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+This is a modern, interactive calendar component built using **React (Vite)**.
+It is inspired by a wall calendar design with a clean UI, smooth animations, and note-taking functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📆 **Month Navigation**
 
-## Expanding the ESLint configuration
+  * Navigate between months with smooth animation
+  * Includes sound feedback (paper flip effect)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 📅 **Date Range Selection**
+
+  * Select start and end dates
+  * Highlighted range for better visibility
+
+* 📝 **Notes Feature**
+
+  * Add notes to any selected date
+  * Data persists using `localStorage`
+  * Notes are visually marked on calendar
+
+* 🎨 **Dynamic Background**
+
+  * Each month displays a unique image
+  * Gradient overlay for readability
+
+* ⚡ **Smooth Animations**
+
+  * Built using Framer Motion
+  * Button interactions and transitions
+
+* 📱 **Responsive Design**
+
+  * Works on mobile and desktop
+  * Touch-friendly interactions
+
+---
+
+## 🛠️ Tech Stack
+
+* React (Vite)
+* Framer Motion
+* JavaScript (ES6+)
+* CSS (inline styling)
+* localStorage
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│   ├── calendar/
+│   │   ├── CalendarHeader.jsx
+│   │   ├── CalendarGrid.jsx
+│   │   ├── DayCell.jsx
+│   ├── layout/
+│   │   ├── CalendarHero.jsx
+│   ├── notes/
+│       ├── NotesPanel.jsx
+├── hooks/
+│   ├── useCalendarState.js
+├── utils/
+│   ├── dateUtils.js
+├── App.jsx
+├── main.jsx
+
+---
+
+## ▶️ Getting Started
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔊 Assets
+
+Make sure this file exists:
+
+public/sounds/flip.mp3
+
+---
+
+## 🌐 Live Demo
+
+(Add after deployment)
+
+---
+
+## 🎥 Demo Video
+
+(Add your video link)
+
+---
+
+## 💡 Future Improvements
+
+* Drag to select date range
+* Dark mode
+* Event reminders
+* Theme customization
+
+---
+
+## 👨‍💻 Author
+
+Sandeep
